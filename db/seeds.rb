@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Todo.where(title: 'Learn').first_or_create(completed: true)
+Todo.where(title: 'Practices').first_or_create(completed: false)
+Todo.where(title: 'Work').first_or_create(completed: false)
