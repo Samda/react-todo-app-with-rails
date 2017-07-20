@@ -5,7 +5,7 @@ describe "Todo" do
     it 'should return all todos' do
       todos = Todo.create!(title: 'todo ', completed: false)
       get api_v1_todos_path
-      expect(json).to eq([todos.as_json(only: [:id, :title, :completed])])
+      expect(json).to eq({"todos" => [todos.as_json(only: [:id, :title, :completed])]})
     end
   end
 

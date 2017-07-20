@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
 
   def resource_name
     controller_name.singularize

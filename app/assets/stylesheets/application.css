@@ -18,3 +18,10 @@ input:focus {
   box-shadow: none;
   outline-style: none;
 }
+
+ul{
+  padding: 50px;
+  li{
+    padding: 10px;
+  }
+}
