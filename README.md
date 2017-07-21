@@ -10,7 +10,7 @@ go to project directory and run
 `bundle && yarn install`
 
 #### create db and add some sample data to project.  
-`rails db:setup`
+`bundle exec rails db:setup && db:seed`
 
 #### Start development server 
 we are using [foreman](https://github.com/ddollar/foreman) here to manage multi processes because we need to run rails and webpack dev server at the sametime.  
