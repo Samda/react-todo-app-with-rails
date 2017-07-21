@@ -3,7 +3,7 @@
 **assume that you got yarn and rails setup already.**
 
 #### clone project to local machine  
-`git clone git@github.com:Samda/react-todo-app-with-rails.git`
+`git clone git@github.com:Samda/react-todo-app-with-rails.git && cd react-todo-app-with-rails`
 
 #### install all depencies for react and rails.
 go to project directory and run  
@@ -13,5 +13,6 @@ go to project directory and run
 `rails db:setup`
 
 #### Start development server 
-we are using foreman here to manage multip process because need to run webpacker
+we are using [foreman](https://github.com/ddollar/foreman) here to manage multi processes because we need to run rails and webpack dev server at the sametime.  
+we have the setup for foreman start in `./Profile`.  
 `bundle exec foreman start`
