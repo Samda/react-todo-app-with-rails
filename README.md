@@ -2,7 +2,7 @@
 
 **assume that you got yarn and rails setup already.**
 
-> clone project to local machine  
+#### clone project to local machine  
 `git clone git@github.com:Samda/react-todo-app-with-rails.git`
 
 #### install all depencies for react and rails.
