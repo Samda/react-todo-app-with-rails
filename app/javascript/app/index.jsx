@@ -12,7 +12,7 @@ class App extends React.Component {
         <h1> Todo list </h1>
         <div style={{margin: '0px auto', background: '#ddd', width: 300, padding: 0 }}>
           <form>
-            <input type="text" style={{ fontSize: 20, width: '100%', padding: 0, margin: 0,  borderWidth: 0 }}/>
+            <input type="text"/>
           </form>
           <TodoList />
         </div>

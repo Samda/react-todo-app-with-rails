@@ -14,6 +14,17 @@
  *= require_self
  */
 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: tahoma;
+  color: #00cccc;
+ }
+
+input {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
 input:focus {
   box-shadow: none;
   outline-style: none;
