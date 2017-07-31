@@ -1,24 +1,18 @@
-# README
+# React on Rails todo app with inline editing feature 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**assume that you got yarn and rails setup already.**
 
-Things you may want to cover:
+#### clone project to local machine  
+`git clone git@github.com:Samda/react-todo-app-with-rails.git && cd react-todo-app-with-rails`
 
-* Ruby version
+#### install all depencies for react and rails.
+go to project directory and run  
+`bundle && yarn install`
 
-* System dependencies
+#### create db and add some sample data to project.  
+`bundle exec rails db:setup && db:seed`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Start development server 
+we are using [foreman](https://github.com/ddollar/foreman) here to manage multi processes because we need to run rails and webpack dev server at the sametime.  
+we have the setup for foreman start in `./Profile`.  
+`bundle exec foreman start`
